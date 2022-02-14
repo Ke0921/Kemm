@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    white-space:nowrap;
+    justify-content: center top;
+}
+
+
+html{
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+header{
+    
+    min-width:1550px;
+    height: 40px;
+    background-color: #333333;
+    
+}
+body{
+    min-width:1550px;
+}
+
+header a{
+    display:inline-block;
+    color: rgb(167, 167, 167);
+    line-height: 40px;
+    text-decoration: none;
+   
+}
+header b{
+    display:inline-block;
+    margin-left: 8px;
+    color: rgb(71, 71, 71);
+    line-height: 40px;
+    font-size: 8px;
+    
+}
+header a:hover{
+    color: #fff;
+    
+}
+.a1 a{
+    font-size: 12px;
+}
+
+.a1{
+    color: rgb(167, 167, 167);
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;/* 行内元素或行内块居中 */
+}
+ 
+#a2{ 
+    margin-left: 248px;/* 登录位置 */
+    color: rgb(167, 167, 167);
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+.a3{
+    display: inline-block;
+    margin-left: 25px;
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    background-color: #424242;
+    
+}
+.a4{
+    color: #424242;
+    width: 320px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    display: block;
+    font-size: 10px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 10px  rgb(116, 116, 116);
+    width: 315px;
+    height: 100px;
+    transform: translateX(-215px);/* X轴偏移 */
+    position: absolute;/* 绝对位置 */
+    z-index: 2;
+    display: none; 
+}
+.a3:hover .a4{
+    display:block;
+}
+#a2:hover{
+    
+    color: #fff;
+}
+.a3:hover{
+    color: coral;
+    background-color: #fff;
+}
+#a1:hover{
+    color: #fff;
+}
+.dhx{
+    width: 1230px;
+    height: 100px;
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    font-size: 10px;
+  
+    margin: 0 auto;/* 行内元素或行内块居中 */
+}
+.dhx-1{
+    float: left;
+    width: 56px;
+    height: 100px; 
+}
+
+
+
+.dhx2{
+    float: left;
+    width: 600px;
+    margin-left: 170px;
+}
+.dhx2 a{
+  
+    text-decoration: none; 
+    color: #333;
+    font-size: 16px;
+    margin-left: 16px;
+    line-height: 100px;
+    font-family: "Arial";
+}
+
+.dhx a:hover{
+    color: coral;
+}
+.dhx img{
+    margin-top: 20px;
+    width: 56px;
+    height: 56px;
+    
+}
+.ss{
+     float: left;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 104px;
+}
+
+.sousuo{
+ 
+    width: 248px;
+    height: 48px;
+    border: 1px solid #e0e0e0;/* 边框样式 */
+    font-size: 15px;
+    color: rgb(17, 17, 17);
+    font-weight:200;
+  
+}
+
+ul.ts{
+    
+    width: 248px;
+    height: 240px;
+    background-color: #fff;
+    border-style:  solid ;
+    border-color: coral;
+    border-width: 1px ;
+    border-top: none;
+   position: absolute;/* 绝对位置 */ 
+    z-index: 5;
+ display: none; 
+   
+ 
+}
+.ts li{
+    transform:translateY(10px);
+    width: 248px;
+    height: 20px;
+    margin-top: 4px;
+    list-style-type: none; 
+}
+
+.ts a{
+    font-size: 16px;
+    color: rgb(65, 65, 65);
+    font-family: "FANGSONG";
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight:200;
+}
+
+.sousuo:focus{
+    outline: none;
+    background-color: rgb(247, 247, 247);
+   border-style: solid;
+   border-color: coral;
+   /* box-shadow: 0 0 15px  coral; */
+}
+
+    
+.ss:hover .ts{
+    display: block;
+ 
+    }
+.ss1{
+    float: right;
+  
+        width: 50px;
+        height: 50px; 
+        margin-top: 20px;
+    }
+
+.sousuo1{
+   
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 0px ;
+    border-style: solid;
+    border-color:  #e0e0e0 ;
+    background-image: url(../img/sss.png);     /* transform: translateY(20px);  */
+background-size: 18px; 
+background-repeat: no-repeat;/* 不平铺 */
+background-position: center;/* 改变图片位置 */ 
+
+  
+}
+.sousuo1:hover { 
+    background-image: url(../img/sss1.png);
+background-color: coral;
+border-color:  coral;
+    }
+
+
+
+
+.cebian {
+  
+    width: 240px;
+    height: 460px;
+    /* y轴偏移 */
+    background-color:rgba(0,0,0,0.8);/* 只让背景颜色透明 */
+    position: absolute;/* 绝对位置 */
+    z-index: 2;
+    
+    
+}
+.cebian li{
+    transform: translateY(20px);/* y轴偏移 */
+    width: 240px;
+    height: 40px;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 40px;
+  /*   margin-left: -40px; */
+    text-indent: 2em;
+    
+}
+
+
+
+.cebian a{
+    display: block;
+    text-decoration: none;/* 取消下划线 */
+    color: #fff;
+   font-size: 14px;
+   
+}
+.cebian li:hover{
+    width: 240px;
+    height: 40px;
+    background-color: coral;
+    
+}
+#to_right{
+    transform: translateY(-28px);
+        margin-left: 90%;
+        border-left: 7px solid #cccf;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+
+}
+.erji a,.erji1 a,.erji2 a,.erji3 a,.erji4 a,.erji5 a,.erji6 a,.erji7 a,.erji8 a,.erji9 a{
+    color:#000;
+}
+.erji,.erji1,.erji2,.erji3,.erji4,.erji5,.erji6,.erji7,.erji8,.erji9{ 
+margin-top: -74px;
+transform: translateX(240px);/* X轴偏移 */
+width: 990px;
+height: 460px;
+box-shadow: 0 0 15px  rgb(116, 116, 116);
+background-color: silver;
+text-align: center;
+display: none;
+opacity: 1;
+}
+.erji td, .erji1 td , .erji2 td, .erji3 td, .erji4 td, .erji5 td, .erji6 td, .erji7 td, .erji8 td, .erji9 td{
+    transform: translateX(80px);/* X轴偏移 */
+    width: 198px;
+    height: 70px;
+}
+.erji img,.erji1 img ,.erji2 img ,.erji3 img ,.erji4 img ,.erji5 img  ,.erji6 img  ,.erji7 img  ,.erji8 img  ,.erji9 img {
+transform: translateY(4px);/* X轴偏移 */
+width: 20px;
+height: 20px;
+}
+.cebian li:hover .erji,li:hover .erji1,li:hover .erji3,li:hover .erji2,li:hover .erji4,li:hover .erji5,li:hover .erji6,li:hover .erji7,li:hover .erji8,li:hover .erji9{
+    display: block;
+}
+.erji1{
+margin-top: -114px;
+
+}
+.erji2{
+    margin-top: -154px;
+    
+ }
+ .erji3{
+    margin-top: -194px;
+    
+ }
+ .erji4{
+    margin-top: -234px;
+    
+ }
+ .erji5{
+    margin-top: -274px;
+    
+ }
+ .erji6{
+    margin-top: -314px;
+    
+ }
+ .erji7{
+    margin-top: -354px;
+    
+ }
+ .erji8{
+    margin-top: -394px;
+    
+ }
+ .erji9{
+    margin-top: -434px;
+    
+ }
+ .erji a:hover , .erji1 a:hover , .erji2 a:hover , .erji3 a:hover , .erji4 a:hover , .erji5 a:hover , .erji6 a:hover , .erji7 a:hover  ,.erji8 a:hover ,.erji9 a:hover {
+color: coral;
+ }
